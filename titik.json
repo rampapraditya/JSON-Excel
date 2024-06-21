@@ -1,0 +1,4759 @@
+[
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:24:39.338931684Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "c60b5b5e31704700b651b73948014c91",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD4VPKM82QGS6NY94REXJK"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD4W9ADWBZVND141M8NT1V"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:24:39.146352720Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YFRYDSaNAwAJBQcHoK+MUANR/wABXEVLAg==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "XEVLAg==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 3,
+            "f_opts": "CQUHB6CvjFADUf8AAQ=="
+          },
+          "full_f_cnt": 3
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEMi4+JgMGgwI1pOOsQYQ5vmu4AIgwPL57KJf"
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923200000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD4VPKM82QGS6NY94REXJK",
+        "ns:downlink:01HVXD4W3AEB0PCZ2BKGTV195J",
+        "ns:transmission:01HVXD4W3A3WNBTBPV9TKKMX55"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD4VPKM82QGS6NY94REXJK",
+      "ns:downlink:01HVXD4W3AEB0PCZ2BKGTV195J",
+      "ns:transmission:01HVXD4W3A3WNBTBPV9TKKMX55"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD4W3ADWG6247F5DRFRVRJ"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:24:38.947212340Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D5854"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD4VPKM82QGS6NY94REXJK"
+      ],
+      "received_at": "2024-04-20T09:24:38.944045927Z",
+      "uplink_message": {
+        "session_key_id": "AY760BA/w0iU7+ZJ5t9dew==",
+        "f_port": 1,
+        "f_cnt": 9,
+        "frm_payload": "MzcuNzc2OTk4",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 37.776998 meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:24:38.535995960Z",
+            "timestamp": 3273530440,
+            "rssi": -51,
+            "channel_rssi": -51,
+            "snr": 13.25,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEMi4+JgMGgwI1pOOsQYQ5vmu4AIgwPL57KJf",
+            "received_at": "2024-04-20T09:24:38.631542538Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923200000",
+          "timestamp": 3273530440,
+          "time": "2024-04-20T09:24:38.535995960Z"
+        },
+        "received_at": "2024-04-20T09:24:38.740025981Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD4VPKM82QGS6NY94REXJK"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD4VX3AJ7KDZXR09M6RGC8"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:24:38.943243090Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QFRYDSaACQABX3XTfhbXuqfTYb37mA==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "Yb37mA==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 9
+          },
+          "f_port": 1,
+          "frm_payload": "X3XTfhbXuqfT",
+          "full_f_cnt": 9
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 3273530440,
+        "time": "2024-04-20T09:24:38.535995960Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:24:38.535995960Z",
+          "timestamp": 3273530440,
+          "rssi": -51,
+          "channel_rssi": -51,
+          "snr": 13.25,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEMi4+JgMGgwI1pOOsQYQ5vmu4AIgwPL57KJf",
+          "received_at": "2024-04-20T09:24:38.631542538Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:24:38.740025981Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXD4VPKM82QGS6NY94REXJK"
+      ],
+      "consumed_airtime": "0.056576s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD4VPKM82QGS6NY94REXJK"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD4VWZTQAS463P5Q4FG9XV"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:24:17.797382191Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "ee97847ca24a47ae9fca627143f74180",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD46NFQ1YKCV29JYBW2CG8"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD47854RRB6NVW56P2M0DD"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:24:17.621374260Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YFRYDSaNAgAJBQcHoK+MUANR/wABJoIZYA==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "JoIZYA==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 2,
+            "f_opts": "CQUHB6CvjFADUf8AAQ=="
+          },
+          "full_f_cnt": 2
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEIm3yI4MGgsIwZOOsQYQidPtXiConu7l0V4="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923200000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD46NFQ1YKCV29JYBW2CG8",
+        "ns:downlink:01HVXD472N3TD40XZ2P41DDB1H",
+        "ns:transmission:01HVXD472NMY7B98W26JPDBB1F"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD46NFQ1YKCV29JYBW2CG8",
+      "ns:downlink:01HVXD472N3TD40XZ2P41DDB1H",
+      "ns:transmission:01HVXD472NMY7B98W26JPDBB1F"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD472NZEYEP5JGQPSJ8GXW"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:24:17.410932903Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D5854"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD46NFQ1YKCV29JYBW2CG8"
+      ],
+      "received_at": "2024-04-20T09:24:17.407966723Z",
+      "uplink_message": {
+        "session_key_id": "AY760BA/w0iU7+ZJ5t9dew==",
+        "f_port": 1,
+        "f_cnt": 7,
+        "frm_payload": "MzguNDMxMDM3",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 38.431037 meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:24:16.771744012Z",
+            "timestamp": 3251772297,
+            "rssi": -50,
+            "channel_rssi": -50,
+            "snr": 13.25,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEIm3yI4MGgsIwZOOsQYQidPtXiConu7l0V4=",
+            "received_at": "2024-04-20T09:24:17.098703751Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923200000",
+          "timestamp": 3251772297,
+          "time": "2024-04-20T09:24:16.771744012Z"
+        },
+        "received_at": "2024-04-20T09:24:17.200127390Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD46NFQ1YKCV29JYBW2CG8"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD46W2VMND4RMFACEWV2J4"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:24:17.406909747Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QFRYDSaABwABZ29rqyd7TqtHUjndVQ==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "UjndVQ==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 7
+          },
+          "f_port": 1,
+          "frm_payload": "Z29rqyd7TqtH",
+          "full_f_cnt": 7
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 3251772297,
+        "time": "2024-04-20T09:24:16.771744012Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:24:16.771744012Z",
+          "timestamp": 3251772297,
+          "rssi": -50,
+          "channel_rssi": -50,
+          "snr": 13.25,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEIm3yI4MGgsIwZOOsQYQidPtXiConu7l0V4=",
+          "received_at": "2024-04-20T09:24:17.098703751Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:24:17.200127390Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXD46NFQ1YKCV29JYBW2CG8"
+      ],
+      "consumed_airtime": "0.056576s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD46NFQ1YKCV29JYBW2CG8"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD46VYTYCP9MJ9K83YVS38"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:23:02.945461417Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "52662f4367b8413aba31ebb1127c0667",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD1XFJCT0CSQR126H27M8R"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD1Y51D900TV8PB3GTSBSG"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:23:02.669915565Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YFRYDSaNAQAJBQcHoK+MUANR/wABc53vRg==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "c53vRg==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 1,
+            "f_opts": "CQUHB6CvjFADUf8AAQ=="
+          },
+          "full_f_cnt": 1
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiELSy+eoLGgsI9pKOsQYQm9KDeyCg5rHEu1w="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 8,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923400000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD1XFJCT0CSQR126H27M8R",
+        "ns:downlink:01HVXD1XWDT3SKMYC7C25W23PT",
+        "ns:transmission:01HVXD1XWDEVWNFFXGGFHXD4P4"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD1XFJCT0CSQR126H27M8R",
+      "ns:downlink:01HVXD1XWDT3SKMYC7C25W23PT",
+      "ns:transmission:01HVXD1XWDEVWNFFXGGFHXD4P4"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD1XWDS0AS9VX8B1565MZ5"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:23:02.468728605Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D5854"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD1XFJCT0CSQR126H27M8R"
+      ],
+      "received_at": "2024-04-20T09:23:02.463381411Z",
+      "uplink_message": {
+        "session_key_id": "AY760BA/w0iU7+ZJ5t9dew==",
+        "f_port": 1,
+        "f_cnt": 2,
+        "frm_payload": "MzguMTg1NDM5",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 38.185439 meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:23:02.082256078Z",
+            "timestamp": 3177077044,
+            "rssi": -53,
+            "channel_rssi": -53,
+            "snr": 13.75,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiELSy+eoLGgsI9pKOsQYQm9KDeyCg5rHEu1w=",
+            "received_at": "2024-04-20T09:23:02.159034022Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 8,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 3177077044,
+          "time": "2024-04-20T09:23:02.082256078Z"
+        },
+        "received_at": "2024-04-20T09:23:02.259016098Z",
+        "consumed_airtime": "0.102912s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD1XFJCT0CSQR126H27M8R"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD1XP449Y8NXA5MJG1CV18"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:23:02.462339566Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QFRYDSaAAgABkNfYgXWoYcczNXhvRw==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "NXhvRw==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 2
+          },
+          "f_port": 1,
+          "frm_payload": "kNfYgXWoYccz",
+          "full_f_cnt": 2
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 8,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 3177077044,
+        "time": "2024-04-20T09:23:02.082256078Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:23:02.082256078Z",
+          "timestamp": 3177077044,
+          "rssi": -53,
+          "channel_rssi": -53,
+          "snr": 13.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiELSy+eoLGgsI9pKOsQYQm9KDeyCg5rHEu1w=",
+          "received_at": "2024-04-20T09:23:02.159034022Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:23:02.259016098Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXD1XFJCT0CSQR126H27M8R"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.102912s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD1XFJCT0CSQR126H27M8R"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD1XNYZJH7KAJW20Y2BGKM"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:22:10.005891824Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "d374e2d467854b50989ee4d02ee6140c",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD09TYZRMCWFQZWX3AE819"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD0AEN7HJW1TE1NCNQ6ZKZ"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:22:09.784376726Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YFRYDSaNAAAJBQcHoK+MUANB/wABF/me3w==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "F/me3w==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_opts": "CQUHB6CvjFADQf8AAQ=="
+          }
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEI2I29ELGgwIwZKOsQYQjKSjsgEgyKW3r/Za"
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923400000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD09TYZRMCWFQZWX3AE819",
+        "ns:downlink:01HVXD0A7RRR3XG6X0P8GSGBC1",
+        "ns:transmission:01HVXD0A7RVBHZFNA2PQY14DTG"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD09TYZRMCWFQZWX3AE819",
+      "ns:downlink:01HVXD0A7RRR3XG6X0P8GSGBC1",
+      "ns:transmission:01HVXD0A7RVBHZFNA2PQY14DTG"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD0A7RJ3YM6DKFFKTETSKV"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:22:09.591854079Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D5854"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD09TYZRMCWFQZWX3AE819"
+      ],
+      "received_at": "2024-04-20T09:22:09.583711076Z",
+      "uplink_message": {
+        "session_key_id": "AY760BA/w0iU7+ZJ5t9dew==",
+        "f_port": 1,
+        "frm_payload": "MTI1MjA5NjEu",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 12520961. meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:22:09.153399944Z",
+            "timestamp": 3124151309,
+            "rssi": -58,
+            "channel_rssi": -58,
+            "snr": 9.5,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEI2I29ELGgwIwZKOsQYQjKSjsgEgyKW3r/Za",
+            "received_at": "2024-04-20T09:22:09.269971749Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 10,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 3124151309,
+          "time": "2024-04-20T09:22:09.153399944Z"
+        },
+        "received_at": "2024-04-20T09:22:09.375015433Z",
+        "consumed_airtime": "0.370688s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD09TYZRMCWFQZWX3AE819"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD0A1Q8JZPXCJV8WH751EE"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:22:09.582833127Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QFRYDSaAAAABkxg+eqqED7goDk2XSg==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "Dk2XSg==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D5854",
+            "f_ctrl": {
+              "adr": true
+            }
+          },
+          "f_port": 1,
+          "frm_payload": "kxg+eqqED7go"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 3124151309,
+        "time": "2024-04-20T09:22:09.153399944Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:22:09.153399944Z",
+          "timestamp": 3124151309,
+          "rssi": -58,
+          "channel_rssi": -58,
+          "snr": 9.5,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEI2I29ELGgwIwZKOsQYQjKSjsgEgyKW3r/Za",
+          "received_at": "2024-04-20T09:22:09.269971749Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:22:09.375015433Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXD09TYZRMCWFQZWX3AE819"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD09TYZRMCWFQZWX3AE819"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD0A1EQK26BX7QX5FHTGD6"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2024-04-20T09:22:05.274831443Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D5854"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXD041SYHKAHPHWZHYNGRRS"
+      ],
+      "received_at": "2024-04-20T09:22:05.269225476Z",
+      "join_accept": {
+        "session_key_id": "AY760BA/w0iU7+ZJ5t9dew==",
+        "received_at": "2024-04-20T09:22:03.450230029Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD041SYHKAHPHWZHYNGRRS"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD05TTTAH6E7HRKZNC2G2T"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2024-04-20T09:22:03.653950165Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "ACA5cpQjNJKENVQG0H7Vs3CmJQENP1E=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "AQ0/UQ==",
+        "join_request_payload": {
+          "join_eui": "8492342394723920",
+          "dev_eui": "70B3D57ED0065435",
+          "dev_nonce": "25A6"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 3118259839,
+        "time": "2024-04-20T09:22:03.283638Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:22:03.283638Z",
+          "timestamp": 3118259839,
+          "rssi": -56,
+          "channel_rssi": -56,
+          "snr": 12.5,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEP+8884LGgwIu5KOsQYQ25eN1gEgmMCUtuBa",
+          "received_at": "2024-04-20T09:22:03.342528304Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:22:03.450230029Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXD041SYHKAHPHWZHYNGRRS"
+      ],
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXD041SYHKAHPHWZHYNGRRS"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD0485AHKX94P98YD42YRG"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2024-04-20T09:22:03.458201469Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D5854"
+        }
+      }
+    ],
+    "origin": "ip-10-102-12-72.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXD0422B8V942G1SS1RF6VY"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:21:25.695113496Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "2a2108014d094651b885b079d534eada",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCYYK0G57KGRCF8TJDBZK1"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCYZ5ZN6E9BRV8EZA2BN50"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:21:25.302362978Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260DBDDF"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCYYK0G57KGRCF8TJDBZK1"
+      ],
+      "received_at": "2024-04-20T09:21:25.296276791Z",
+      "uplink_message": {
+        "session_key_id": "AY76yvtx6Y/ZpGwZ5b2PHQ==",
+        "f_port": 1,
+        "f_cnt": 18,
+        "frm_payload": "Ni4wNzYzOTIA",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 6.076392\u0000 meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:21:24.921081066Z",
+            "timestamp": 3079885671,
+            "rssi": -71,
+            "channel_rssi": -71,
+            "snr": 9.75,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOemzbwLGgsIlZKOsQYQvbfvKSDYlPe70Vk=",
+            "received_at": "2024-04-20T09:21:24.981330706Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 3079885671,
+          "time": "2024-04-20T09:21:24.921081066Z"
+        },
+        "received_at": "2024-04-20T09:21:25.089227729Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCYYK0G57KGRCF8TJDBZK1"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCYYSPGQ49WABJ3DH01HD3"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:21:25.295341671Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QN+9DSaAEgAB+Nr7mEyBFmSW8kAFCw==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "8kAFCw==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 18
+          },
+          "f_port": 1,
+          "frm_payload": "+Nr7mEyBFmSW",
+          "full_f_cnt": 18
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 3079885671,
+        "time": "2024-04-20T09:21:24.921081066Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:21:24.921081066Z",
+          "timestamp": 3079885671,
+          "rssi": -71,
+          "channel_rssi": -71,
+          "snr": 9.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOemzbwLGgsIlZKOsQYQvbfvKSDYlPe70Vk=",
+          "received_at": "2024-04-20T09:21:24.981330706Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:21:25.089227729Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCYYK0G57KGRCF8TJDBZK1"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.056576s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCYYK0G57KGRCF8TJDBZK1"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCYYSF68WAFKJKWGMR9W57"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:19:17.754721586Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "b76e7871e4fa4183a0e5ebf640272b22",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCV1MDSHTD0V2WD8CKDZXA"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCV27T05M1JTERCM4NFR09"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:19:17.546709209Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YN+9DSaAAwBquv5s",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "arr+bA==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 3
+          },
+          "full_f_cnt": 3
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOrezf8KGgsIlZGOsQYQu7ndPyCQ7Kz39FU="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923200000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCV1MDSHTD0V2WD8CKDZXA",
+        "ns:downlink:01HVXCV21AV5H83Z5GXVJSQ7Q2",
+        "ns:transmission:01HVXCV21A208HQC4PKCFZGTC2"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCV1MDSHTD0V2WD8CKDZXA",
+      "ns:downlink:01HVXCV21AV5H83Z5GXVJSQ7Q2",
+      "ns:transmission:01HVXCV21A208HQC4PKCFZGTC2"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCV21A7TSXZ1ZK9PG8ND55"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:19:17.349983693Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260DBDDF"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCV1MDSHTD0V2WD8CKDZXA"
+      ],
+      "received_at": "2024-04-20T09:19:17.343494538Z",
+      "uplink_message": {
+        "session_key_id": "AY76yvtx6Y/ZpGwZ5b2PHQ==",
+        "f_cnt": 10,
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:19:16.966340065Z",
+            "timestamp": 2951966570,
+            "rssi": -66,
+            "channel_rssi": -66,
+            "snr": 10.25,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOrezf8KGgsIlZGOsQYQu7ndPyCQ7Kz39FU=",
+            "received_at": "2024-04-20T09:19:17.027173392Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923200000",
+          "timestamp": 2951966570,
+          "time": "2024-04-20T09:19:16.966340065Z"
+        },
+        "received_at": "2024-04-20T09:19:17.134763841Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCV1MDSHTD0V2WD8CKDZXA"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCV1V573DV6951NPNWBSWJ"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:19:17.342706309Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QN+9DSaFCgAJBwMDB7XKNPg=",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "tco0+A==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 10,
+            "f_opts": "CQcDAwc="
+          },
+          "full_f_cnt": 10
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 2951966570,
+        "time": "2024-04-20T09:19:16.966340065Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:19:16.966340065Z",
+          "timestamp": 2951966570,
+          "rssi": -66,
+          "channel_rssi": -66,
+          "snr": 10.25,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOrezf8KGgsIlZGOsQYQu7ndPyCQ7Kz39FU=",
+          "received_at": "2024-04-20T09:19:17.027173392Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:19:17.134763841Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCV1MDSHTD0V2WD8CKDZXA"
+      ],
+      "consumed_airtime": "0.051456s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCV1MDSHTD0V2WD8CKDZXA"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCV1TYE67N87AYFB19XYCR"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:19:12.454315224Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "0b1e5268925b4406ae1ba360cc20eacc",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCTWETY222YA2GJNDC8BRC"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCTX26SJ29VH5YHCTEEK27"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:19:12.246137273Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YN+9DSaNAgAJBQcHoK+MUANR/wAB9XyYCw==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "9XyYCw==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 2,
+            "f_opts": "CQUHB6CvjFADUf8AAQ=="
+          },
+          "full_f_cnt": 2
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEISx9fwKGgwIj5GOsQYQ4ffVjQMgoIeH9d9V"
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923400000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCTWETY222YA2GJNDC8BRC",
+        "ns:downlink:01HVXCTWVPJE07937J5BXJHRCY",
+        "ns:transmission:01HVXCTWVPYZD6S3FY0CKB06P8"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCTWETY222YA2GJNDC8BRC",
+      "ns:downlink:01HVXCTWVPJE07937J5BXJHRCY",
+      "ns:transmission:01HVXCTWVPYZD6S3FY0CKB06P8"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCTWVP29C95YQVA7HJJJS8"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:19:12.047867981Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260DBDDF"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCTWETY222YA2GJNDC8BRC"
+      ],
+      "received_at": "2024-04-20T09:19:12.042449025Z",
+      "uplink_message": {
+        "session_key_id": "AY76yvtx6Y/ZpGwZ5b2PHQ==",
+        "f_port": 1,
+        "f_cnt": 9,
+        "frm_payload": "NS43MTc3MjIA",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 5.717722\u0000 meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:19:11.326565027Z",
+            "timestamp": 2946324612,
+            "rssi": -67,
+            "channel_rssi": -67,
+            "snr": 8.75,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEISx9fwKGgwIj5GOsQYQ4ffVjQMgoIeH9d9V",
+            "received_at": "2024-04-20T09:19:11.735001964Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 2946324612,
+          "time": "2024-04-20T09:19:11.326565027Z"
+        },
+        "received_at": "2024-04-20T09:19:11.835023031Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCTWETY222YA2GJNDC8BRC"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCTWNFVMWCH65RAGZWRB44"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:19:12.041737668Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QN+9DSaACQABkBwBlcKOA9DbA3DDGg==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "A3DDGg==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 9
+          },
+          "f_port": 1,
+          "frm_payload": "kBwBlcKOA9Db",
+          "full_f_cnt": 9
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 2946324612,
+        "time": "2024-04-20T09:19:11.326565027Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:19:11.326565027Z",
+          "timestamp": 2946324612,
+          "rssi": -67,
+          "channel_rssi": -67,
+          "snr": 8.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEISx9fwKGgwIj5GOsQYQ4ffVjQMgoIeH9d9V",
+          "received_at": "2024-04-20T09:19:11.735001964Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:19:11.835023031Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCTWETY222YA2GJNDC8BRC"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.056576s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCTWETY222YA2GJNDC8BRC"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCTWN9J71ETBCPT3068EKN"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:17:45.903191355Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "aa6772822078494084f60c5ef99215a1",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCR7ZDVXM54VYS5J7NMPKY"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCR8HFVJGYBDHP1N6H786H"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:17:45.750132187Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YN+9DSaNAQAJBQcHoK+MUANR/wABVUaVqA==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "VUaVqA==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 1,
+            "f_opts": "CQUHB6CvjFADUf8AAQ=="
+          },
+          "full_f_cnt": 1
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEJvV5tMKGgwIuZCOsQYQsqmDmwEg+NqJ2p5T"
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923200000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCR7ZDVXM54VYS5J7NMPKY",
+        "ns:downlink:01HVXCR8CPZ90G54NCR6S86RYF",
+        "ns:transmission:01HVXCR8CPJW36MQ4XZM40T9DY"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCR7ZDVXM54VYS5J7NMPKY",
+      "ns:downlink:01HVXCR8CPZ90G54NCR6S86RYF",
+      "ns:transmission:01HVXCR8CPJW36MQ4XZM40T9DY"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCR8CP9DYJCCJM0E36YBSV"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:17:45.535899621Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260DBDDF"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCR7ZDVXM54VYS5J7NMPKY"
+      ],
+      "received_at": "2024-04-20T09:17:45.529976296Z",
+      "uplink_message": {
+        "session_key_id": "AY76yvtx6Y/ZpGwZ5b2PHQ==",
+        "f_port": 1,
+        "f_cnt": 3,
+        "frm_payload": "OC40MTQ0MDgA",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 8.414408\u0000 meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:17:45.135219097Z",
+            "timestamp": 2860100251,
+            "rssi": -31,
+            "channel_rssi": -31,
+            "snr": 13.75,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEJvV5tMKGgwIuZCOsQYQsqmDmwEg+NqJ2p5T",
+            "received_at": "2024-04-20T09:17:45.233283580Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923200000",
+          "timestamp": 2860100251,
+          "time": "2024-04-20T09:17:45.135219097Z"
+        },
+        "received_at": "2024-04-20T09:17:45.326200026Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCR7ZDVXM54VYS5J7NMPKY"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCR85ZXZXP0DF83QYMYJ8Q"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:17:45.529155119Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QN+9DSaAAwABANw42aUNNZEqSor8Og==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "Sor8Og==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 3
+          },
+          "f_port": 1,
+          "frm_payload": "ANw42aUNNZEq",
+          "full_f_cnt": 3
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 2860100251,
+        "time": "2024-04-20T09:17:45.135219097Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:17:45.135219097Z",
+          "timestamp": 2860100251,
+          "rssi": -31,
+          "channel_rssi": -31,
+          "snr": 13.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEJvV5tMKGgwIuZCOsQYQsqmDmwEg+NqJ2p5T",
+          "received_at": "2024-04-20T09:17:45.233283580Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:17:45.326200026Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCR7ZDVXM54VYS5J7NMPKY"
+      ],
+      "consumed_airtime": "0.056576s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCR7ZDVXM54VYS5J7NMPKY"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCR85S0R8RCH7HPNC09N9E"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:16:36.965883421Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "9d6e236203a64bb28ede81f77e868bf0",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCP4JSJBEJRH0XAQ4FWTCG"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCP575MYGTEQHZDA2E64JY"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:16:36.727516127Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YN+9DSaNAAAJBQcHoK+MUANR/wABjNfkMw==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "jNfkMw==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_opts": "CQUHB6CvjFADUf8AAQ=="
+          }
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOeB9rIKGgwI9I+OsQYQwIrMlQEg2Iz+6Z1R"
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923400000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCP4JSJBEJRH0XAQ4FWTCG",
+        "ns:downlink:01HVXCP4ZQPW34ZZ53VEQEMFSN",
+        "ns:transmission:01HVXCP4ZQ538TV8P9KEC0S6KF"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCP4JSJBEJRH0XAQ4FWTCG",
+      "ns:downlink:01HVXCP4ZQPW34ZZ53VEQEMFSN",
+      "ns:transmission:01HVXCP4ZQ538TV8P9KEC0S6KF"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCP4ZQ84TFXGDM3NC24E1N"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:16:36.530987655Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260DBDDF"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCP4JSJBEJRH0XAQ4FWTCG"
+      ],
+      "received_at": "2024-04-20T09:16:36.523485373Z",
+      "uplink_message": {
+        "session_key_id": "AY76yvtx6Y/ZpGwZ5b2PHQ==",
+        "f_port": 1,
+        "frm_payload": "MTI1MjA5NjEu",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 12520961. meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:16:36.152249097Z",
+            "timestamp": 2791145703,
+            "rssi": -34,
+            "channel_rssi": -34,
+            "snr": 12.75,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOeB9rIKGgwI9I+OsQYQwIrMlQEg2Iz+6Z1R",
+            "received_at": "2024-04-20T09:16:36.225128875Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 10,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 2791145703,
+          "time": "2024-04-20T09:16:36.152249097Z"
+        },
+        "received_at": "2024-04-20T09:16:36.314841175Z",
+        "consumed_airtime": "0.370688s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCP4JSJBEJRH0XAQ4FWTCG"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCP4SJEYRTZ90CY5NP6TCF"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:16:36.522647907Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QN+9DSaAAAAByEIjjuQRH3hHcDF7DQ==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "cDF7DQ==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260DBDDF",
+            "f_ctrl": {
+              "adr": true
+            }
+          },
+          "f_port": 1,
+          "frm_payload": "yEIjjuQRH3hH"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 2791145703,
+        "time": "2024-04-20T09:16:36.152249097Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:16:36.152249097Z",
+          "timestamp": 2791145703,
+          "rssi": -34,
+          "channel_rssi": -34,
+          "snr": 12.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOeB9rIKGgwI9I+OsQYQwIrMlQEg2Iz+6Z1R",
+          "received_at": "2024-04-20T09:16:36.225128875Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:16:36.314841175Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCP4JSJBEJRH0XAQ4FWTCG"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCP4JSJBEJRH0XAQ4FWTCG"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCP4SADE5VJYYYQAK99GCS"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2024-04-20T09:16:32.260922924Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260DBDDF"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCNYVBA6434JQHEQP76QSQ"
+      ],
+      "received_at": "2024-04-20T09:16:32.255116974Z",
+      "join_accept": {
+        "session_key_id": "AY76yvtx6Y/ZpGwZ5b2PHQ==",
+        "received_at": "2024-04-20T09:16:30.444731300Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCNYVBA6434JQHEQP76QSQ"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCP0M4X0M0R8CAZJS7V8JG"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2024-04-20T09:16:30.648419212Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4163"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "ACA5cpQjNJKENVQG0H7Vs3Cw672mcGE=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "vaZwYQ==",
+        "join_request_payload": {
+          "join_eui": "8492342394723920",
+          "dev_eui": "70B3D57ED0065435",
+          "dev_nonce": "EBB0"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 2785254194,
+        "time": "2024-04-20T09:16:30.266326904Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:16:30.266326904Z",
+          "timestamp": 2785254194,
+          "rssi": -36,
+          "channel_rssi": -36,
+          "snr": 13.25,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiELK2jrAKGgwI7o+OsQYQ1KPD0wEg0PbY8IdR",
+          "received_at": "2024-04-20T09:16:30.355008063Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:16:30.444731300Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCNYVBA6434JQHEQP76QSQ"
+      ],
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCNYVBA6434JQHEQP76QSQ"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCNZ1RSFFTD1G82KRDHQP0"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2024-04-20T09:16:30.452507836Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260DBDDF"
+        }
+      }
+    ],
+    "origin": "ip-10-102-12-72.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCNYVM2JPR0WGBS4H2BGGJ"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:16:05.914942437Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4163"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "f447a560e62a47a3b54dc26ded99b446",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCN677B7DNS5TEVKQYYQ81"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCN6WT867SFTY9V4KWYF70"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:16:05.633819556Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4163"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YGNBDSaNAAAJBQcHoK+MUANR/wAB17X4uQ==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "17X4uQ==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D4163",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_opts": "CQUHB6CvjFADUf8AAQ=="
+          }
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEITljKQKGgsI1Y+OsQYQ59/XaiCgp/WDqlA="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923400000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCN677B7DNS5TEVKQYYQ81",
+        "ns:downlink:01HVXCN6M169B5E8Z5YX40W6PC",
+        "ns:transmission:01HVXCN6M1QQWYFV4TWW4KP8PD"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCN677B7DNS5TEVKQYYQ81",
+      "ns:downlink:01HVXCN6M169B5E8Z5YX40W6PC",
+      "ns:transmission:01HVXCN6M1QQWYFV4TWW4KP8PD"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCN6M190J9JT0FPJ8JNVFY"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:16:05.438009227Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4163"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D4163"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCN677B7DNS5TEVKQYYQ81"
+      ],
+      "received_at": "2024-04-20T09:16:05.429723882Z",
+      "uplink_message": {
+        "session_key_id": "AY76yoH+oqmRA3H8zsoF/A==",
+        "f_port": 1,
+        "frm_payload": "MTI1MjA5NjEu",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 12520961. meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:16:05.065778017Z",
+            "timestamp": 2760061572,
+            "rssi": -34,
+            "channel_rssi": -34,
+            "snr": 13.75,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEITljKQKGgsI1Y+OsQYQ59/XaiCgp/WDqlA=",
+            "received_at": "2024-04-20T09:16:05.136806722Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 10,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 2760061572,
+          "time": "2024-04-20T09:16:05.065778017Z"
+        },
+        "received_at": "2024-04-20T09:16:05.224727818Z",
+        "consumed_airtime": "0.370688s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCN677B7DNS5TEVKQYYQ81"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCN6DY9CX7PV039EDTT9W6"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:16:05.428645403Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4163"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QGNBDSaAAAABIatdXTL3TRvp3hrYww==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "3hrYww==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D4163",
+            "f_ctrl": {
+              "adr": true
+            }
+          },
+          "f_port": 1,
+          "frm_payload": "IatdXTL3TRvp"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 2760061572,
+        "time": "2024-04-20T09:16:05.065778017Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:16:05.065778017Z",
+          "timestamp": 2760061572,
+          "rssi": -34,
+          "channel_rssi": -34,
+          "snr": 13.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEITljKQKGgsI1Y+OsQYQ59/XaiCgp/WDqlA=",
+          "received_at": "2024-04-20T09:16:05.136806722Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:16:05.224727818Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCN677B7DNS5TEVKQYYQ81"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCN677B7DNS5TEVKQYYQ81"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCN6DM7GFFEX0QXC6FES0V"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2024-04-20T09:16:01.167058915Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4163"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D4163"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCN0FSC512K2V4DXVDYPHH"
+      ],
+      "received_at": "2024-04-20T09:16:01.164486804Z",
+      "join_accept": {
+        "session_key_id": "AY76yoH+oqmRA3H8zsoF/A==",
+        "received_at": "2024-04-20T09:15:59.354610934Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCN0FSC512K2V4DXVDYPHH"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCN28FM3CD5JDTMX38B7KV"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2024-04-20T09:15:59.560960548Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "ACA5cpQjNJKENVQG0H7Vs3DbRUpbqtU=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "Sluq1Q==",
+        "join_request_payload": {
+          "join_eui": "8492342394723920",
+          "dev_eui": "70B3D57ED0065435",
+          "dev_nonce": "45DB"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 2754170105,
+        "time": "2024-04-20T09:15:59.177067041Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:15:59.177067041Z",
+          "timestamp": 2754170105,
+          "rssi": -39,
+          "channel_rssi": -39,
+          "snr": 12.5,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEPmZpaEKGgwIz4+OsQYQzv2/qAEgqNnSipRQ",
+          "received_at": "2024-04-20T09:15:59.266440745Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:15:59.354610934Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCN0FSC512K2V4DXVDYPHH"
+      ],
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCN0FSC512K2V4DXVDYPHH"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCN0P8TSXK0C6FZAEX9SA1"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2024-04-20T09:15:59.362078043Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4163"
+        }
+      }
+    ],
+    "origin": "ip-10-102-12-72.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCN0G2HX7F7SA8XJ69SW86"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:15:22.779511931Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "676152365b6b437fb4bdb31dab331284",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCKW5YNZE6Y17WKMQ72BQT"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCKWRVBVHM0WG99BM18YA5"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:15:22.585156192Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YEyUDSaNAgAJBQcHoK+MUANS/wABz622yQ==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "z622yQ==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D944C",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 2,
+            "f_opts": "CQUHB6CvjFADUv8AAQ=="
+          },
+          "full_f_cnt": 2
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEIj0wo8KGgsIqo+OsQYQ8OCmUyDA3tqiiU8="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923400000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCKW5YNZE6Y17WKMQ72BQT",
+        "ns:downlink:01HVXCKWJSJ5K3DTW2JMHSR9W2",
+        "ns:transmission:01HVXCKWJSZ0KGN53H1H6R0ERQ"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCKW5YNZE6Y17WKMQ72BQT",
+      "ns:downlink:01HVXCKWJSJ5K3DTW2JMHSR9W2",
+      "ns:transmission:01HVXCKWJSZ0KGN53H1H6R0ERQ"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCKWJSC6582SSPTPX1RQ48"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:15:22.388765153Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D944C"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCKW5YNZE6Y17WKMQ72BQT"
+      ],
+      "received_at": "2024-04-20T09:15:22.382642634Z",
+      "uplink_message": {
+        "session_key_id": "AY76yDgly3YsHrcUiiEwTw==",
+        "f_port": 1,
+        "f_cnt": 6,
+        "frm_payload": "MTI1MjA5NjEu",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 12520961. meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:15:21.919925928Z",
+            "timestamp": 2716908040,
+            "rssi": -45,
+            "channel_rssi": -45,
+            "snr": 13.5,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEIj0wo8KGgsIqo+OsQYQ8OCmUyDA3tqiiU8=",
+            "received_at": "2024-04-20T09:15:22.090137636Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 2716908040,
+          "time": "2024-04-20T09:15:21.919925928Z"
+        },
+        "received_at": "2024-04-20T09:15:22.175843590Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCKW5YNZE6Y17WKMQ72BQT"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCKWCM13V8XHBP77MPAHHY"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:15:22.381874648Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QEyUDSaABgABYKGcQepvRF5zb0RAHQ==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "b0RAHQ==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D944C",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 6
+          },
+          "f_port": 1,
+          "frm_payload": "YKGcQepvRF5z",
+          "full_f_cnt": 6
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 2716908040,
+        "time": "2024-04-20T09:15:21.919925928Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:15:21.919925928Z",
+          "timestamp": 2716908040,
+          "rssi": -45,
+          "channel_rssi": -45,
+          "snr": 13.5,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEIj0wo8KGgsIqo+OsQYQ8OCmUyDA3tqiiU8=",
+          "received_at": "2024-04-20T09:15:22.090137636Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:15:22.175843590Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCKW5YNZE6Y17WKMQ72BQT"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.056576s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCKW5YNZE6Y17WKMQ72BQT"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCKWCDJVAPA7BF7PZXRWJD"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:15:01.086525072Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "b57b404558934b698888501df1c062bf",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCK704TC063KBHCDDMH7PW"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCK7JYV8K6BK1M86XH6PNH"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:15:00.897669160Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YEyUDSaNAQAJBQcHoK+MUANS/wAB8z28Zw==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "8z28Zw==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D944C",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 1,
+            "f_opts": "CQUHB6CvjFADUv8AAQ=="
+          },
+          "full_f_cnt": 1
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEMX1koUKGgwIlI+OsQYQh5XW5gEgiKPmm7hO"
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923200000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCK704TC063KBHCDDMH7PW",
+        "ns:downlink:01HVXCK7D176RTVXK5F44SW9Q9",
+        "ns:transmission:01HVXCK7D1Q9YDEEFXGNER33D0"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCK704TC063KBHCDDMH7PW",
+      "ns:downlink:01HVXCK7D176RTVXK5F44SW9Q9",
+      "ns:transmission:01HVXCK7D1Q9YDEEFXGNER33D0"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCK7D17F91S4J2JES7CG7Q"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:15:00.695486195Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D944C"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCK704TC063KBHCDDMH7PW"
+      ],
+      "received_at": "2024-04-20T09:15:00.692487968Z",
+      "uplink_message": {
+        "session_key_id": "AY76yDgly3YsHrcUiiEwTw==",
+        "f_port": 1,
+        "f_cnt": 4,
+        "frm_payload": "MTI1MjA5NjEu",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 12520961. meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:15:00.166073083Z",
+            "timestamp": 2695150277,
+            "rssi": -45,
+            "channel_rssi": -45,
+            "snr": 14,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEMX1koUKGgwIlI+OsQYQh5XW5gEgiKPmm7hO",
+            "received_at": "2024-04-20T09:15:00.400229412Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923200000",
+          "timestamp": 2695150277,
+          "time": "2024-04-20T09:15:00.166073083Z"
+        },
+        "received_at": "2024-04-20T09:15:00.485033214Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCK704TC063KBHCDDMH7PW"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCK76QH6R7F28TCZYBJ2GH"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:15:00.691549732Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QEyUDSaABAABC4nH5lBRWf0huyho+A==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "uyho+A==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D944C",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 4
+          },
+          "f_port": 1,
+          "frm_payload": "C4nH5lBRWf0h",
+          "full_f_cnt": 4
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 2695150277,
+        "time": "2024-04-20T09:15:00.166073083Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:15:00.166073083Z",
+          "timestamp": 2695150277,
+          "rssi": -45,
+          "channel_rssi": -45,
+          "snr": 14,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEMX1koUKGgwIlI+OsQYQh5XW5gEgiKPmm7hO",
+          "received_at": "2024-04-20T09:15:00.400229412Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:15:00.485033214Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCK704TC063KBHCDDMH7PW"
+      ],
+      "consumed_airtime": "0.056576s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCK704TC063KBHCDDMH7PW"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCK76K7QHDPE75YRPNH5E4"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T09:13:35.853317701Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ErrorDetails",
+      "namespace": "pkg/applicationserver/io/web",
+      "name": "request",
+      "message_format": "request",
+      "attributes": {
+        "status_code": 403,
+        "url": "https://api.datacake.co/integrations/lorawan/tti/",
+        "webhook_id": "datacake-tnn"
+      },
+      "correlation_id": "66505ed7a6be45af9d9c1faae737522b",
+      "code": 14,
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.protobuf.Struct",
+          "value": {
+            "body": ""
+          }
+        }
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCGKRQSK08CYVSRECX4ERT"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCGMBD8BFH1RBCYFM9R2HP"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T09:13:35.672659076Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YEyUDSaNAAAJBQcHoK+MUANQ/wABhiKmaw==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "hiKmaw==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D944C",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_opts": "CQUHB6CvjFADUP8AAQ=="
+          }
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiELvYytwJGgsIv46OsQYQrcrGeSD4jMOn+0s="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "923400000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923200000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AS_920_923_TTN_AU"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCGKRQSK08CYVSRECX4ERT",
+        "ns:downlink:01HVXCGM5RDGX8Q95FJ72H8G2X",
+        "ns:transmission:01HVXCGM5RJM4F5642651ET8GQ"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCGKRQSK08CYVSRECX4ERT",
+      "ns:downlink:01HVXCGM5RDGX8Q95FJ72H8G2X",
+      "ns:transmission:01HVXCGM5RJM4F5642651ET8GQ"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCGM5R9W8FD403W11SDQ2Z"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T09:13:35.472356002Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D944C"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCGKRQSK08CYVSRECX4ERT"
+      ],
+      "received_at": "2024-04-20T09:13:35.464481258Z",
+      "uplink_message": {
+        "session_key_id": "AY76yDgly3YsHrcUiiEwTw==",
+        "f_port": 1,
+        "frm_payload": "MTI1MjA5NjEu",
+        "decoded_payload": {
+          "text": "Hasil jarak end node 1: 12520961. meter"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "undika-musaygw",
+              "eui": "AC1F09FFFE058362"
+            },
+            "time": "2024-04-20T09:13:35.084131002Z",
+            "timestamp": 2610080827,
+            "rssi": -53,
+            "channel_rssi": -53,
+            "snr": 10.25,
+            "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiELvYytwJGgsIv46OsQYQrcrGeSD4jMOn+0s=",
+            "received_at": "2024-04-20T09:13:35.171384522Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 10,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "923400000",
+          "timestamp": 2610080827,
+          "time": "2024-04-20T09:13:35.084131002Z"
+        },
+        "received_at": "2024-04-20T09:13:35.256124403Z",
+        "consumed_airtime": "0.370688s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000183",
+          "tenant_id": "ttn",
+          "cluster_id": "au1",
+          "cluster_address": "au1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCGKRQSK08CYVSRECX4ERT"
+    ],
+    "origin": "ip-10-102-4-95.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCGKZGSZ4BHQP6HP2848QH"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2024-04-20T09:13:35.463680374Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QEyUDSaAAAAB+1e838lgb+cj4Mqjrg==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "4Mqjrg==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260D944C",
+            "f_ctrl": {
+              "adr": true
+            }
+          },
+          "f_port": 1,
+          "frm_payload": "+1e838lgb+cj"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 2610080827,
+        "time": "2024-04-20T09:13:35.084131002Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:13:35.084131002Z",
+          "timestamp": 2610080827,
+          "rssi": -53,
+          "channel_rssi": -53,
+          "snr": 10.25,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiELvYytwJGgsIv46OsQYQrcrGeSD4jMOn+0s=",
+          "received_at": "2024-04-20T09:13:35.171384522Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:13:35.256124403Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCGKRQSK08CYVSRECX4ERT"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCGKRQSK08CYVSRECX4ERT"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCGKZ7MNC9J7F63QNE03GA"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2024-04-20T09:13:31.189630328Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D944C"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXCGE0X0RCRKHR9RECGB60F"
+      ],
+      "received_at": "2024-04-20T09:13:31.187249670Z",
+      "join_accept": {
+        "session_key_id": "AY76yDgly3YsHrcUiiEwTw==",
+        "received_at": "2024-04-20T09:13:29.374569504Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCGE0X0RCRKHR9RECGB60F"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCGFSNM34EM0SBJTFYXND0"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2024-04-20T09:13:29.577609615Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D6000"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "ACA5cpQjNJKENVQG0H7Vs3AFcXFWmPI=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "cVaY8g==",
+        "join_request_payload": {
+          "join_eui": "8492342394723920",
+          "dev_eui": "70B3D57ED0065435",
+          "dev_nonce": "7105"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923200000",
+        "timestamp": 2604189335,
+        "time": "2024-04-20T09:13:29.199915885Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:13:29.199915885Z",
+          "timestamp": 2604189335,
+          "rssi": -55,
+          "channel_rssi": -55,
+          "snr": 13.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEJeN49kJGgwIuY6OsQYQ/o2DsgEg2PueruVL",
+          "received_at": "2024-04-20T09:13:29.289881938Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:13:29.374569504Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXCGE0X0RCRKHR9RECGB60F"
+      ],
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXCGE0X0RCRKHR9RECGB60F"
+    ],
+    "origin": "ip-10-102-12-129.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCGE79F2PZ6QQE868405X9"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2024-04-20T09:13:29.390187200Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D944C"
+        }
+      }
+    ],
+    "origin": "ip-10-102-5-152.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXCGE1EBXQ1S4N34EZ5XQJ6"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2024-04-20T09:06:51.999150734Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4FCA"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-70b3d57ed0065435",
+        "application_ids": {
+          "application_id": "teoxoba"
+        },
+        "dev_eui": "70B3D57ED0065435",
+        "join_eui": "8492342394723920",
+        "dev_addr": "260D4FCA"
+      },
+      "correlation_ids": [
+        "gs:uplink:01HVXC485SRW1TG53NZPR04W1C"
+      ],
+      "received_at": "2024-04-20T09:06:51.996279231Z",
+      "join_accept": {
+        "session_key_id": "AY76wiC/a1LPZZZx9XbwbQ==",
+        "received_at": "2024-04-20T09:06:50.170268893Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXC485SRW1TG53NZPR04W1C"
+    ],
+    "origin": "ip-10-102-13-181.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXC49YZ5CKJB5KH7VM08ANK"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2024-04-20T09:06:50.377294568Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D6000"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "ACA5cpQjNJKENVQG0H7Vs3BfdZpEpy4=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "mkSnLg==",
+        "join_request_payload": {
+          "join_eui": "8492342394723920",
+          "dev_eui": "70B3D57ED0065435",
+          "dev_nonce": "755F"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "923400000",
+        "timestamp": 2204894824,
+        "time": "2024-04-20T09:06:49.907660961Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "undika-musaygw",
+            "eui": "AC1F09FFFE058362"
+          },
+          "time": "2024-04-20T09:06:49.907660961Z",
+          "timestamp": 2204894824,
+          "rssi": -32,
+          "channel_rssi": -32,
+          "snr": 12.75,
+          "uplink_token": "ChwKGgoOdW5kaWthLW11c2F5Z3cSCKwfCf/+BYNiEOiMsJsIGgsIqouOsQYQg9LIUCDAjOTvlUA=",
+          "received_at": "2024-04-20T09:06:50.085500247Z"
+        }
+      ],
+      "received_at": "2024-04-20T09:06:50.170268893Z",
+      "correlation_ids": [
+        "gs:uplink:01HVXC485SRW1TG53NZPR04W1C"
+      ],
+      "device_channel_index": 1,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01HVXC485SRW1TG53NZPR04W1C"
+    ],
+    "origin": "ip-10-102-6-85.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXC48C9ZQTCJHGZ08NBRTPX"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2024-04-20T09:06:50.184567785Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          },
+          "dev_eui": "70B3D57ED0065435",
+          "join_eui": "8492342394723920",
+          "dev_addr": "260D4FCA"
+        }
+      }
+    ],
+    "origin": "ip-10-102-5-152.ap-southeast-2.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXC4868WNYNXPDX1FWPCP68"
+  },
+  {
+    "name": "as.webhook.fail",
+    "time": "2024-04-20T08:56:57.754609046Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXBJ5MTHTTGJDC21EZQEB9X"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2024-04-20T08:56:57.570942816Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXBJ5F2P5E03F9VCPZ61ERZ"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2024-04-20T08:56:57.370977363Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-70b3d57ed0065435",
+          "application_ids": {
+            "application_id": "teoxoba"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HVXBJ58T1NX2C44PA8H0RC45"
+  }
+]
